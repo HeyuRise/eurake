@@ -7,6 +7,7 @@
     <groupId>com.heyu</groupId>
     <artifactId>eurake</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -50,6 +51,13 @@
             </plugin>
         </plugins>
     </build>
+    <modules>
+        <module>clien</module>
+        <module>service</module>
+        <module>service-feign</module>
+        <module>service-ribbon</module>
+        <module>service-zuul</module>
+    </modules>
 
 
 </project>
